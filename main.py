@@ -176,7 +176,7 @@ time_spend_company
 
     with st.sidebar:
         st.title(":green[Forecasting] Employee Attrition Rate")
-        st.title("Develop by- Nisarg Rathod")
+        st.title("Develop by- NisargRathod")
         st.image("imgs/division.png", caption="", width=90)
         page = option_menu(
             menu_title=None,
