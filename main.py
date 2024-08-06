@@ -201,7 +201,7 @@ time_spend_company
         if page == "Home":
 
             with header:
-                st.header('Employee Retention Classification 👨‍💼')
+                st.header('Employee Retention 👨‍💼')
 
             with content:
                 st.dataframe(df.sample(frac=0.25, random_state=35).reset_index(drop=True),
